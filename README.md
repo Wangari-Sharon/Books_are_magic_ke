@@ -6,7 +6,7 @@
 
 ## Project Description.
 
-### Allows easy access to browsing and buying books from all over the world from the comfort of ones home, office etc
+### Allows easy access to search and read a preview of books from all over the world!
 
 ## Project setup.
 
@@ -18,7 +18,7 @@
 
 ## Github Link.
 
-### https://wangari-sharon.github.io/Phase-1-Project/
+### https://wangari-sharon.github.io/Phase-1-Web-Project/
 
 ## Technologies used.
 
@@ -26,7 +26,7 @@
 
 ## Contact  Information
 
-### Reach out to me via my personal e-mail wanagrik35@gmail.com
+### Reach out to me via my personal e-mail wangarik35@gmail.com
 
 ## License
 
