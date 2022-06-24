@@ -1,23 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Inconsolata&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  --inner-header: "Inconsolata", monospace;
-  --inner-content: "Estonia", cursive;
-  --col-dark: #272a31;
-  --col-red: #ec5242;
-  --col-light: black;
+body {
+  background-image: url("https://unsplash.com/photos/67rnodKzsRQ/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Nzd8fGJvb2tzfGVufDB8MHx8fDE2NTYwNTgwODk&force=true&w=1920");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 header{
-  background-color: rgb(180, 158, 180);
+  /*background-color: rgb(180, 158, 180);
   height: 100%;
-  padding:20px;
-}
+  padding:20px; */
+  color:coral;
+} 
 
 h1{
   text-align: center;
@@ -45,6 +46,7 @@ ol {
 .hero {
  text-align: center;
  margin: 20px;
+ color: coral;
 }
 
 #search {
@@ -84,16 +86,21 @@ ol {
   display: flex;
   flex-direction: row;
   background-color: aliceblue;
-  width: 300px;
+  width: 500px;
   padding: 4px;
   margin: 5px;
 }
 
 .descr {
   padding-top: 30px;
+  overflow: auto;
+  height: 38vh;
+  flex-basis: 60%;
+
 }
 
 .card>img:hover{
+  transform: scale(0.95);
 opacity: 60%;
 }
 
@@ -101,15 +108,23 @@ opacity: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(180, 158, 180);
+  background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 50px;
+  height: 20px;
   position: fixed;
   bottom: 0;
   left: 0;
   color: var(--col-light);
   font-family: var(--inner-content);
-  font-size: 2em;
+  font-size: 1.em;
   
 
+}
+
+img {
+  width:300px;
+  max-width: 100%;
+  flex-basis: 40%;
+  margin-right: 10px;
+  border-radius: 7px;
 }
