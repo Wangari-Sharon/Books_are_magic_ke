@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
             </div>
                 `
-             results.appendChild(card)
+                results.appendChild(card)
                
                }
             },
