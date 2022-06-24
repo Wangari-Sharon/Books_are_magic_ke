@@ -20,14 +20,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 <i class="fa fa-shopping-basket"></i>
                 <img src="${data.items[i].volumeInfo.imageLinks.thumbnail}" alt="">
                 <div class="descr">
-                    <div>${data.items[i].volumeInfo.title}</div>
-                    <div> ${data.items[i].volumeInfo.authors}</div>
-                    <div> ${data.items[i].volumeInfo.publishedDate}</div>
-                    <div> ${data.items[i].volumeInfo.pageCount}</div>
+                    <div> <h3>Title:</h3>${data.items[i].volumeInfo.title}</div>
+                    <div> <h3>Author:</h3>${data.items[i].volumeInfo.authors}</div>
+                    <div> <h3>Date Published:</h3>${data.items[i].volumeInfo.publishedDate}</div>
+                    <div> <h3>Pages:</h3>${data.items[i].volumeInfo.pageCount}</div>
+                    <div> <h3>Preview:</h3>${data.items[i].volumeInfo.description}</div>
                 </div>
             </div>
                 `
-                results.appendChild(card)
+             results.appendChild(card)
                
                }
             },
