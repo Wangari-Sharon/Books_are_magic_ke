@@ -1,9 +1,18 @@
-
+@import url("https://fonts.googleapis.com/css2?family=Estonia&family=Inconsolata&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --inner-header: "Inconsolata", monospace;
+  --inner-content: "Estonia", cursive;
+  --col-dark: #272a31;
+  --col-red: #ec5242;
+  --col-light: black;
+}
+
 header{
   background-color: rgb(180, 158, 180);
   height: 100%;
@@ -100,7 +109,7 @@ opacity: 60%;
   left: 0;
   color: var(--col-light);
   font-family: var(--inner-content);
-  font-size: 1.6em;
+  font-size: 2em;
   
 
 }
